@@ -1,0 +1,99 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "projects": "Projets",
+    "contact": "Contact",
+    "downloadCV": "Télécharger CV"
+  },
+  "hero": {
+    "title": "Eva Blanco",
+    "greeting": "Bonjour, je suis",
+    "subtitle": "Développeuse FullStack",
+    "description": "Passionnée par la création d'expériences numériques uniques et fonctionnelles. Spécialisée dans le développement web moderne avec les dernières technologies."
+  },
+  "about": {
+    "title": "À propos de moi",
+    "story": {
+      "title": "Mon histoire",
+      "text1": "Je suis une développeuse FullStack récemment diplômée, passionnée par la création de solutions numériques accessibles et efficaces.",
+      "text2": "Actuellement, je réalise un Stage dans une entreprise suisse, où je développe mes compétences pratiques et j'apprends de nouvelles technologies."
+    },
+    "experience": {
+      "title": "Expérience actuelle",
+      "stage": {
+        "title": "Stage en entreprise suisse",
+        "description": "Développement de projets d'entreprise et apprentissage de nouvelles technologies dans un environnement professionnel international."
+      }
+    },
+    "skills": {
+      "title": "Compétences techniques",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "design": "Design"
+    },
+    "softSkills": {
+      "title": "Compétences douces",
+      "teamwork": {
+        "title": "Travail d'équipe",
+        "description": "Collaboration efficace dans les projets de groupe"
+      },
+      "communication": {
+        "title": "Communication",
+        "description": "Communication efficace dans les équipes"
+      },
+      "learning": {
+        "title": "Apprentissage continu",
+        "description": "Toujours prête à apprendre de nouvelles technologies"
+      }
+    },
+    "goals": {
+      "title": "Objectifs futurs",
+      "text1": "Mon objectif futur est de me spécialiser en **Analyse de Données et Intelligence Artificielle**, en combinant mes connaissances en développement avec la puissance des données.",
+      "text2": "Actuellement, j'apprends l'analyse de données et l'IA pour étendre mes capacités professionnelles."
+    },
+    "cta": {
+      "title": "Voulez-vous en savoir plus sur mon travail ?",
+      "description": "Jetez un œil à mes projets et découvrez comment je peux vous aider à créer des solutions numériques uniques !",
+      "button": "Voir mes projets"
+    }
+  },
+  "projects": {
+    "title": "Mes projets",
+    "smoking": {
+      "title": "Site web pour arrêter de fumer",
+      "description": "Projet d'équipe développé pendant mes études"
+    },
+    "ecommerce": {
+      "title": "Boutique en ligne en développement",
+      "description": "Projet personnel pour apprendre de nouvelles technologies"
+    },
+    "emotions": {
+      "title": "Projet d'Analyse des émotions des employés",
+      "description": "Projet d'entreprise chez Géneve Business News"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "info": {
+      "title": "Travaillons ensemble ?",
+      "description": "Je suis disponible pour des projets freelance et des opportunités professionnelles. Parlons de votre projet !"
+    },
+    "form": {
+      "title": "Envoyez-moi un message",
+      "name": "Nom complet",
+      "namePlaceholder": "Votre nom complet",
+      "email": "Email",
+      "emailPlaceholder": "votre@email.com",
+      "message": "Message",
+      "messagePlaceholder": "Parlez-moi de votre projet...",
+      "submit": "Envoyer le message"
+    }
+  },
+  "footer": {
+    "title": "Eva Blanco",
+    "subtitle": "Développeuse FullStack",
+    "copyright": "© 2025 Eva Blanco - Tous droits réservés",
+    "madeWith": "Fait avec ❤️ en Suisse"
+  }
+}

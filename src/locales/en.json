@@ -1,0 +1,99 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact",
+    "downloadCV": "Download CV"
+  },
+  "hero": {
+    "title": "Eva Blanco",
+    "greeting": "Hello, I'm",
+    "subtitle": "FullStack Developer",
+    "description": "Passionate about creating unique and functional digital experiences. Specialized in modern web development with the latest technologies."
+  },
+  "about": {
+    "title": "About Me",
+    "story": {
+      "title": "My Story",
+      "text1": "I am a recently graduated FullStack developer, passionate about creating digital solutions that are accessible and efficient.",
+      "text2": "Currently, I am doing an Internship at a Swiss company, where I am developing my practical skills and learning new technologies."
+    },
+    "experience": {
+      "title": "Current Experience",
+      "stage": {
+        "title": "Internship at Swiss Company",
+        "description": "Developing business projects and learning new technologies in an international professional environment."
+      }
+    },
+    "skills": {
+      "title": "Technical Skills",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "design": "Design"
+    },
+    "softSkills": {
+      "title": "Soft Skills",
+      "teamwork": {
+        "title": "Teamwork",
+        "description": "Effective collaboration in group projects"
+      },
+      "communication": {
+        "title": "Communication",
+        "description": "Effective communication in teams"
+      },
+      "learning": {
+        "title": "Continuous Learning",
+        "description": "Always ready to learn new technologies"
+      }
+    },
+    "goals": {
+      "title": "Future Goals",
+      "text1": "My future goal is to specialize in **Data Analysis and Artificial Intelligence**, combining my development knowledge with the power of data.",
+      "text2": "Currently, I am learning about data analysis and AI to expand my professional capabilities."
+    },
+    "cta": {
+      "title": "Would you like to know more about my work?",
+      "description": "Take a look at my projects and discover how I can help you create unique digital solutions!",
+      "button": "View my projects"
+    }
+  },
+  "projects": {
+    "title": "My Projects",
+    "smoking": {
+      "title": "Website to quit smoking",
+      "description": "Team project developed during my studies"
+    },
+    "ecommerce": {
+      "title": "Online store in development",
+      "description": "Personal project to learn new technologies"
+    },
+    "emotions": {
+      "title": "Employee Emotion Analysis Project",
+      "description": "Business project at Géneve Business News"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "info": {
+      "title": "Shall we work together?",
+      "description": "I am available for freelance projects and professional opportunities. Let's talk about your project!"
+    },
+    "form": {
+      "title": "Send me a message",
+      "name": "Full Name",
+      "namePlaceholder": "Your full name",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "message": "Message",
+      "messagePlaceholder": "Tell me about your project...",
+      "submit": "Send message"
+    }
+  },
+  "footer": {
+    "title": "Eva Blanco",
+    "subtitle": "FullStack Developer",
+    "copyright": "© 2025 Eva Blanco - All rights reserved",
+    "madeWith": "Made with ❤️ in Switzerland"
+  }
+}

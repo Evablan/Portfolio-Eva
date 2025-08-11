@@ -1,0 +1,98 @@
+/*Sección principal -Projects */
+
+.projects{
+background-color: var(--bg-primary);
+  padding: var(--spacing-3xl) 0;
+}
+
+/*Título de la sección */
+.section-title{
+    text-align: center;
+    margin-bottom: var(--spacing-3xl);
+    color: var(--text-primary);
+    font-size: var(--font-size-3xl);
+    font-weight: 700;
+}
+
+/*Sección principal, projects-grid*/
+.project-grid {
+  display: flex;
+  flex-wrap: wrap; /* Permite que las tarjetas se envuelvan */
+  gap: var(--spacing-3xl); /* Espacio entre tarjetas */
+  justify-content: center; /* Centra las tarjetas */
+}
+
+.projects-card {
+  flex: 1; /* Cada tarjeta toma el mismo espacio */
+  min-width: 300px; /* Ancho mínimo */
+  max-width: 400px; /* Ancho máximo */
+}
+
+.projects-card:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.projects-card h3{
+  color: var(--text-primary);
+  font-size: var(--font-size-2xl);
+  margin-bottom: var(--spacing-lg);
+  font-weight: 600;
+}
+
+.projects-img{
+  width: 100%;
+  height: 200px;/*Altura fija para todas las imágenes*/
+  object-fit: cover; /*Ajustar a la imagen*/
+  border-radius: 8px;
+}
+
+/* Estilos para las tecnologías */
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+  margin-top: var(--spacing-md); /*Espacio automático entre las tecnologías*/
+}
+
+.technologies span {
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: 20px;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  border: 1px solid var(--bg-secondary);
+  transition: all 0.3s ease;
+}
+
+.technologies span:hover {
+  background-color: var(--primary-color);
+  color: var(--text-light);
+  transform: translateY(-1px);
+}
+
+/* Estilos para los links de GitHub */
+.github-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  padding: var(--spacing-sm) var(--spacing-md);
+  border: 2px solid var(--primary-color);
+  border-radius: 8px;
+  margin: var(--spacing-md) 0;
+  transition: all 0.3s ease;
+  background-color: transparent;
+}
+
+.github-link:hover {
+  background-color: var(--primary-color);
+  color: var(--text-light);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+}
+
