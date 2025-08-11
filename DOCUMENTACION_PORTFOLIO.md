@@ -652,3 +652,4 @@ import './projects.css'
 **Versión del proyecto:** 1.0.0  
 **Estado:** Completado y en producción
 
+

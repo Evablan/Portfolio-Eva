@@ -329,4 +329,89 @@
   .about-story h3 {
     font-size: var(--font-size-xl);
   }
+  
+  /* Mejoras específicas para la sección CTA en móvil */
+  .cta-section {
+    padding: var(--spacing-2xl) var(--spacing-lg);
+    margin: 0 var(--spacing-sm);
+    border-radius: var(--border-radius);
+  }
+  
+  .cta-section h3 {
+    font-size: var(--font-size-xl);
+    margin-bottom: var(--spacing-md);
+  }
+  
+  .cta-section p {
+    font-size: var(--font-size-base);
+    margin-bottom: var(--spacing-lg);
+  }
+  
+  .cta-section .btn-primary {
+    font-size: var(--font-size-base);
+    padding: var(--spacing-md) var(--spacing-xl);
+    width: auto;
+    display: inline-block;
+  }
+  
+  /* Mejoras para las habilidades técnicas */
+  .skill-tags {
+    justify-content: center;
+  }
+  
+  .skill-tag {
+    font-size: var(--font-size-xs);
+    padding: var(--spacing-xs) var(--spacing-sm);
+  }
+  
+  /* Mejoras para las habilidades blandas */
+  .soft-skill-item {
+    padding: var(--spacing-md);
+    text-align: left;
+  }
+  
+  .soft-skill-item h4 {
+    font-size: var(--font-size-base);
+  }
+  
+  .soft-skill-item p {
+    font-size: var(--font-size-sm);
+  }
+}
+
+@media (max-width: 480px) {
+  .cta-section {
+    padding: var(--spacing-xl) var(--spacing-md);
+    margin: 0;
+  }
+  
+  .cta-section h3 {
+    font-size: var(--font-size-lg);
+  }
+  
+  .cta-section p {
+    font-size: var(--font-size-sm);
+  }
+  
+  .cta-section .btn-primary {
+    font-size: var(--font-size-sm);
+    padding: var(--spacing-sm) var(--spacing-lg);
+  }
+  
+  .skill-tag {
+    font-size: 0.75rem;
+    padding: 6px 10px;
+  }
+  
+  .soft-skill-item {
+    padding: var(--spacing-sm);
+  }
+  
+  .soft-skill-item h4 {
+    font-size: var(--font-size-sm);
+  }
+  
+  .soft-skill-item p {
+    font-size: 0.875rem;
+  }
 } 
