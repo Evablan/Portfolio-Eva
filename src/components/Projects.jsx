@@ -1,4 +1,4 @@
-import './Projects.css'
+import './projects.css'
 import { useTranslation } from 'react-i18next';
 import img1 from '../assets/projects/fumer.png'
 import img3 from '../assets/projects/emotions.png'
