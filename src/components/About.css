@@ -274,13 +274,14 @@
   font-size: var(--font-size-2xl);
   margin-bottom: var(--spacing-lg);
   font-weight: 600;
+  color: white;
 }
 
 .cta-section p {
   font-size: var(--font-size-lg);
   margin-bottom: var(--spacing-xl);
   opacity: 0.9;
-  color: black;
+  color: white;
 }
 
 .cta-section .btn-primary {
