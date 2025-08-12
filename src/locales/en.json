@@ -60,9 +60,11 @@
   },
   "projects": {
     "title": "My Projects",
+    "viewOnGithub": "View in GitHub",
     "smoking": {
       "title": "Website to quit smoking",
       "description": "Team project developed during my studies"
+      
     },
     "ecommerce": {
       "title": "Online store in development",

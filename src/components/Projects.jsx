@@ -13,9 +13,10 @@ function Projects() {
                 <article className ="projects-card">
                     <h3>{t('projects.smoking.title')}</h3>
                     <img src ={img1} alt={t('projects.smoking.title')} className='projects-img' />
-                    <a href="https://github.com/Evablan/Plataforma_Dejar_De_Fumar" target="_blank" rel="noopener noreferrer" className="github-link">
-                        🐙 Ver en GitHub
+                    <a href="https://github.com/Evablan/Plataforma_Dejar_De_Fumar" target="_blank" rel="noopener noreferrer" className="github-link" title={t('projects.viewOnGithub')}>
+                        🐙 {t('projects.viewOnGithub')}
                     </a>
+                    
                     <p>{t('projects.smoking.description')}</p>
                     <div className="technologies">
                         <span>HTML</span>
@@ -27,8 +28,8 @@ function Projects() {
 
             <article className="projects-card">
                 <h3>{t('projects.ecommerce.title')}</h3>
-               <a href="https://github.com/Evablan/Shop-online" target="_blank" rel="noopener noreferrer" className="github-link">
-                    🐙 Ver en GitHub
+               <a href="https://github.com/Evablan/Shop-online" target="_blank" rel="noopener noreferrer" className="github-link" title={t('projects.viewOnGithub')}>
+                    🐙 {t('projects.viewOnGithub')}
                </a>
                 <p>{t('projects.ecommerce.description')}</p>
                 <div className="technologies">
@@ -43,8 +44,8 @@ function Projects() {
             <article className="projects-card">
                 <h3>{t('projects.emotions.title')}</h3>
                 <img src ={img3} alt={t('projects.emotions.title')} className='projects-img' />
-                <a href="https://github.com/Evablan/GBNEmotions" target="_blank" rel="noopener noreferrer" className="github-link">
-                    🐙 Ver en GitHub
+                <a href="https://github.com/Evablan/GBNEmotions" target="_blank" rel="noopener noreferrer" className="github-link" title={t('projects.viewOnGithub')}   >
+                    🐙 {t('projects.viewOnGithub')}
                 </a>
                 <p>{t('projects.emotions.description')}</p>
                 <div className="technologies">
