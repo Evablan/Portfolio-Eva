@@ -17,12 +17,12 @@
     "story": {
       "title": "Mon histoire",
       "text1": "Je suis une développeuse FullStack récemment diplômée, passionnée par la création de solutions numériques accessibles et efficaces.",
-      "text2": "Actuellement, je réalise un Stage dans une entreprise suisse, où je développe mes compétences pratiques et j'apprends de nouvelles technologies."
+      "text2": "Actuellement, je réalise un stage dans une entreprise suisse, où je développe mes compétences pratiques et j'apprends de nouvelles technologies."
     },
     "experience": {
       "title": "Expérience actuelle",
       "stage": {
-        "title": "Stage en GBN",
+        "title": "Stage chez GBN",
         "description": "Développement de projets d'entreprise et apprentissage de nouvelles technologies dans un environnement professionnel international."
       }
     },
@@ -71,7 +71,7 @@
       "description": "Projet personnel pour apprendre de nouvelles technologies"
     },
     "emotions": {
-      "title": "Projet d'Analyse des émotions des employés",
+      "title": "Projet d'analyse des émotions des employés",
       "description": "Projet d'entreprise chez Géneve Business News"
     }
   },
