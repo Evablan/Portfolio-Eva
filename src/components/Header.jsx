@@ -18,10 +18,10 @@ function Header() {
     ];
     {/* Crear el archivo de descarga de CV */}
     const handleDownloadCV = () => {
-        const cvUrl = '/CV_Dev.pdf';
+        const cvUrl = '/CV_dev.pdf';
         const link = document.createElement('a');
         link.href = cvUrl;
-        link.download = 'CV_Dev.pdf'; // Nombre del archivo que se descargará
+        link.download = 'CV_dev.pdf'; // Nombre del archivo que se descargará
         document.body.appendChild(link); // Añadir el enlace al DOM
         link.click(); // Simular un clic en el enlace
         document.body.removeChild(link); // Eliminar el enlace del DOM
