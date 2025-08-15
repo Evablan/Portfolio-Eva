@@ -80,7 +80,7 @@ function Contact() {
                         <a href="mailto:evablancomart@gmail.com">
                             📧 evablancomart@gmail.com
                         </a>
-                        <a href="https://www.linkedin.com/in/eva-blanco-mart%C3%ADnez-5a8617158/" 
+                        <a href="https://www.linkedin.com/in/evablancodev/" 
                            target="_blank" 
                            rel="noopener noreferrer">
                             💼 LinkedIn
