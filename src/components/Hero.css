@@ -106,13 +106,16 @@
   height: 300px;
   border-radius: 50%;
   object-fit: cover;
+  object-position: center 20%;
   box-shadow: var(--shadow-lg);
   border: 4px solid white;
+  /* Desplaza y acerca la imagen para mostrar solo la parte superior deseada */
+  transform: translateY(-6%) scale(1.18);
   transition: transform var(--transition-normal);
 }
 
 .avatar-image:hover {
-  transform: scale(1.05);
+  transform: translateY(-6%) scale(1.22);
 }
 
 /* Efecto de brillo en hover */
@@ -141,12 +144,12 @@
     text-align: center;
     gap: var(--spacing-2xl);
   }
-  
+
   .avatar-image {
     width: 250px;
     height: 250px;
   }
-  
+
   .hero-text {
     max-width: 100%;
   }
@@ -157,34 +160,34 @@
     min-height: 80vh;
     padding: var(--spacing-2xl) 0;
   }
-  
+
   .hero-content {
     gap: var(--spacing-xl);
     padding: 0 var(--spacing-lg);
   }
-  
+
   .hero-title {
     font-size: var(--font-size-2xl);
     margin-bottom: var(--spacing-md);
   }
-  
+
   .hero-subtitle {
     font-size: var(--font-size-lg);
     margin-bottom: var(--spacing-md);
   }
-  
+
   .hero-description {
     font-size: var(--font-size-base);
     margin-bottom: var(--spacing-xl);
   }
-  
+
   .hero-buttons {
     flex-direction: column;
     align-items: center;
     gap: var(--spacing-md);
     margin-bottom: var(--spacing-xl);
   }
-  
+
   .btn-primary,
   .btn-secondary {
     width: 100%;
@@ -192,7 +195,7 @@
     padding: var(--spacing-md) var(--spacing-lg);
     font-size: var(--font-size-base);
   }
-  
+
   .avatar-image {
     width: 180px;
     height: 180px;
@@ -204,41 +207,41 @@
     min-height: 70vh;
     padding: var(--spacing-xl) 0;
   }
-  
+
   .hero-content {
     padding: 0 var(--spacing-md);
     gap: var(--spacing-lg);
   }
-  
+
   .hero-title {
     font-size: var(--font-size-xl);
     margin-bottom: var(--spacing-sm);
   }
-  
+
   .hero-subtitle {
     font-size: var(--font-size-base);
     margin-bottom: var(--spacing-sm);
   }
-  
+
   .hero-description {
     font-size: var(--font-size-sm);
     margin-bottom: var(--spacing-lg);
   }
-  
+
   .hero-buttons {
     gap: var(--spacing-sm);
     margin-bottom: var(--spacing-lg);
   }
-  
+
   .btn-primary,
   .btn-secondary {
     padding: var(--spacing-sm) var(--spacing-md);
     font-size: var(--font-size-sm);
     max-width: 200px;
   }
-  
+
   .avatar-image {
     width: 140px;
     height: 140px;
   }
-} 
+}
