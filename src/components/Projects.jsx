@@ -1,63 +1,65 @@
 import './projects.css'
 import { useTranslation } from 'react-i18next';
-import img1 from '../assets/projects/fumer.png'
-import img3 from '../assets/projects/emotions.png'
+import imgSmoking from '../assets/projects/fumer.png'
+import imgEmotions from '../assets/projects/emotions.png'
 
 function Projects() {
     const { t } = useTranslation();
 
-    return(
-        <section className ="projects" id="proyectos">
+    const projects = [
+        {
+            id: 'smoking',
+            title: t('projects.smoking.title'),
+            description: t('projects.smoking.description'),
+            image: imgSmoking,
+            github: 'https://github.com/Evablan/Plataforma_Dejar_De_Fumar',
+            tech: ['HTML', 'CSS', 'JavaScript']
+        },
+        {
+            id: 'ecommerce',
+            title: t('projects.ecommerce.title'),
+            description: t('projects.ecommerce.description'),
+            image: null,
+            github: 'https://github.com/Evablan/Shop-online',
+            tech: ['HTML', 'CSS', 'Laravel', 'Sqlite']
+        },
+        {
+            id: 'emotions',
+            title: t('projects.emotions.title'),
+            description: t('projects.emotions.description'),
+            image: imgEmotions,
+            github: 'https://github.com/Evablan/GBNEmotions',
+            tech: ['HTML', 'CSS', 'Laravel', 'Sqlite']
+        },
+
+    ];
+
+    return (
+        <section className="projects" id="proyectos">
             <h2 className="section-title">{t('projects.title')}</h2>
-            <div className = "project-grid">
-                <article className ="projects-card">
-                    <h3>{t('projects.smoking.title')}</h3>
-                    <img src ={img1} alt={t('projects.smoking.title')} className='projects-img' />
-                    <a href="https://github.com/Evablan/Plataforma_Dejar_De_Fumar" target="_blank" rel="noopener noreferrer" className="github-link" title={t('projects.viewOnGithub')}>
-                        🐙 {t('projects.viewOnGithub')}
-                    </a>
-                    
-                    <p>{t('projects.smoking.description')}</p>
-                    <div className="technologies">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
-                    </div>
-                </article>
-            
-
-            <article className="projects-card">
-                <h3>{t('projects.ecommerce.title')}</h3>
-               <a href="https://github.com/Evablan/Shop-online" target="_blank" rel="noopener noreferrer" className="github-link" title={t('projects.viewOnGithub')}>
-                    🐙 {t('projects.viewOnGithub')}
-               </a>
-                <p>{t('projects.ecommerce.description')}</p>
-                <div className="technologies">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>Laravel</span>
-                    <span>Sqlite</span>
-                </div>
-            </article>
-
-
-            <article className="projects-card">
-                <h3>{t('projects.emotions.title')}</h3>
-                <img src ={img3} alt={t('projects.emotions.title')} className='projects-img' />
-                <a href="https://github.com/Evablan/GBNEmotions" target="_blank" rel="noopener noreferrer" className="github-link" title={t('projects.viewOnGithub')}   >
-                    🐙 {t('projects.viewOnGithub')}
-                </a>
-                <p>{t('projects.emotions.description')}</p>
-                <div className="technologies">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>Laravel</span>
-                    <span>Sqlite</span>
-                </div>
-                
-            </article>
+            <div className="project-grid">
+                {projects.map((p) => (
+                    <article key={p.id} className="projects-card">
+                        {p.image && (
+                            <img src={p.image} alt={p.title} className='projects-img' />
+                        )}
+                        <div className="projects-card-body">
+                            <h3 className="projects-card-title">{p.title}</h3>
+                            <p className="projects-card-desc">{p.description}</p>
+                            <div className="technologies">
+                                {p.tech.map((tTech) => (
+                                    <span key={tTech}>{tTech}</span>
+                                ))}
+                            </div>
+                        </div>
+                        <div className="projects-card-actions">
+                            <a href={p.github} target="_blank" rel="noopener noreferrer" className="github-link" title={t('projects.viewOnGithub')}>
+                                🐙 {t('projects.viewOnGithub')}
+                            </a>
+                        </div>
+                    </article>
+                ))}
             </div>
-            
         </section>
     )
 }

@@ -64,14 +64,13 @@
     "smoking": {
       "title": "Site web pour arrêter de fumer",
       "description": "Projet d'équipe développé pendant mes études"
-      
     },
     "ecommerce": {
       "title": "Boutique en ligne en développement",
       "description": "Projet personnel pour apprendre de nouvelles technologies"
     },
     "emotions": {
-      "title": "Projet d'analyse des émotions des employés",
+      "title": "Projet d'analyse des émotions des colaborateurs",
       "description": "Projet d'entreprise chez Géneve Business News"
     }
   },
