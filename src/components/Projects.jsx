@@ -2,7 +2,7 @@ import './projects.css'
 import { useTranslation } from 'react-i18next';
 import imgSmoking from '../assets/projects/fumer.png'
 import imgEmotions from '../assets/projects/emotions.png'
-
+import imgLanding from '../assets/projects/landing.png'
 function Projects() {
     const { t } = useTranslation();
 
@@ -31,6 +31,15 @@ function Projects() {
             github: 'https://github.com/Evablan/GBNEmotions',
             tech: ['HTML', 'CSS', 'Laravel', 'Sqlite']
         },
+
+        {
+            id: 'landing-saas',
+            title: t('projects.landing-saas.title'),
+            description: t('projects.landing-saas.description'),
+            image: imgLanding,
+            github: 'https://github.com/Evablan/landing-saas',
+            tech: ['HTML', 'CSS', 'JavaScript']
+        }
 
     ];
 

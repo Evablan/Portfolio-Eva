@@ -72,6 +72,10 @@
     "emotions": {
       "title": "Projet d'analyse des émotions des colaborateurs",
       "description": "Projet d'entreprise chez Géneve Business News"
+    },
+    "landing-saas": {
+      "title": "Landing Page de SaaS",
+      "description": "Projet personnel pour apprendre de nouvelles technologies"
     }
   },
   "contact": {

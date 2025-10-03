@@ -64,7 +64,6 @@
     "smoking": {
       "title": "Website to quit smoking",
       "description": "Team project developed during my studies"
-      
     },
     "ecommerce": {
       "title": "Online store in development",
@@ -73,6 +72,10 @@
     "emotions": {
       "title": "Employee Emotion Analysis Project",
       "description": "Business project at Géneve Business News"
+    },
+    "landing-saas": {
+      "title": "Landing Page of SaaS",
+      "description": "Personal project to learn new technologies"
     }
   },
   "contact": {
